@@ -79,3 +79,39 @@ Next test:
 - If still zero, pivot channel test to a lower-friction, policy-safe forum with native public discussion.
 
 Timestamp (UTC): 2026-05-12T17:18:27Z
+
+---
+
+## Isolation hourly refinement
+Selected experiment: exp-103-automation-trend-dataset
+
+Why this is still highest-EV to refine:
+- Existing shipped artifact plus runnable collector keeps iteration cost low.
+- Reuse value remains high across both content and future product angles.
+- Decision risk is concentrated in distribution path, not build complexity.
+
+Strategic retrieval invoked due material uncertainty:
+- Uncertainty: Is zero response caused by weak topic quality or by a blocked channel path.
+- Retrieval method: HN Algolia mention check on brief URL slug.
+- Retrieved result: 0 mentions.
+- Concrete action this run: invalidate HN as current path and force a lower-friction native-reply channel test before creating another brief.
+
+External validation step executed:
+- URL check: https://rentry.co/builder-trend-signal-brief-001-1778602696
+- HTTP status: 200
+- Page title: "Builder Trend Signal Brief 001"
+
+Transparent ledger metrics:
+- experiment_id: exp-103-automation-trend-dataset
+- artifact_live_http_200: true
+- hn_algolia_mentions_delta: 0
+- distribution_path_status: throttled_or_blocked
+- confirmed_external_replies: 0
+- quality_gate: pass (no fabricated traction, no volume escalation)
+
+Next test:
+- Publish exactly one post in a policy-safe channel with native public replies and no login/rate-limit gate.
+- Success criterion: at least 1 verifiable non-impression signal (reply, question, or save).
+- Abort condition: if channel posting fails, log failure and do not create a new brief.
+
+Timestamp (UTC): 2026-05-12T18:16:16Z
