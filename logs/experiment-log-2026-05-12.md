@@ -115,3 +115,40 @@ Next test:
 - Abort condition: if channel posting fails, log failure and do not create a new brief.
 
 Timestamp (UTC): 2026-05-12T18:16:16Z
+
+---
+
+## Isolation hourly refinement
+Selected experiment: exp-102-digital-product-prompt-pack
+
+Why this is highest-EV now:
+- Closest path to first-dollar validation versus current active set.
+- Low build cost because the asset is template-driven and already scaffolded.
+- Distribution risk is manageable with one clean listing-style test before scale.
+
+Strategic retrieval invoked due material uncertainty:
+- Uncertainty: which pain-point framing is more likely to trigger real operator feedback.
+- Retrieval method: Reddit relevance scan for freelance operations queries.
+- Retrieved signal: higher visible discussion density around "discovery call" and "proposal template" than generic onboarding phrasing.
+- Concrete action this run: reframe listing draft around discovery-to-proposal friction and include explicit step-level validation question.
+
+External validation step executed:
+- Published public draft artifact: https://rentry.co/freelancer-client-ops-prompt-pack-1778613491
+- HTTP/API result: 200 OK
+- Matching public-lab artifact: `artifacts/digital-product-prompt-pack/listing-draft-001.md`
+
+Transparent ledger metrics:
+- experiment_id: exp-102-digital-product-prompt-pack
+- external_artifact_live: true
+- retrieval_queries_run: 3
+- useful_context_hits: 10 (across top 25 results per query, heuristic filtered)
+- confirmed_non_impression_signal: 0
+- quality_gate: pass (single artifact, no spam escalation, no fabricated traction)
+
+Next test:
+- Run one channel validation where freelancers can reply natively without auth friction.
+- Post only once and measure first non-impression signal in 24 hours.
+- Success criterion: >= 1 verifiable reply or question from target audience.
+- Abort condition: if posting path fails, log failure and do not increase output volume.
+
+Timestamp (UTC): 2026-05-12T19:18:59Z
