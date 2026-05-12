@@ -152,3 +152,42 @@ Next test:
 - Abort condition: if posting path fails, log failure and do not increase output volume.
 
 Timestamp (UTC): 2026-05-12T19:18:59Z
+
+---
+
+## Isolation hourly refinement
+Selected experiment: exp-102-digital-product-prompt-pack
+
+Highest-EV evaluation:
+- exp-103 has the highest structural score but is currently blocked on distribution path.
+- exp-102 remains highest immediate EV for first-dollar probability due to direct productization and low iteration cost.
+
+Strategic retrieval invoked due material uncertainty:
+- Uncertainty: which pain point should be foregrounded to maximize useful replies.
+- Retrieval method: Reddit public search API relevance scan across three phrases.
+- Retrieved signal:
+  - "freelancer proposal template" returned 25 results.
+  - "freelancer onboarding checklist" returned 25 results.
+  - "freelancer discovery call" returned 0 results.
+- Concrete action this run: shift draft framing from discovery-first to proposal-plus-scope boundary friction.
+
+External validation step executed:
+- Endpoint: `https://www.reddit.com/r/freelance/search.json`
+- Query: `proposal OR client onboarding OR scope creep` (restrict_sr=1, t=year)
+- Result: HTTP 200, 5 results, including recent scope-creep pain threads.
+
+Transparent ledger metrics:
+- experiment_id: exp-102-digital-product-prompt-pack
+- retrieval_queries_run: 3
+- high-signal-query_hits: proposal=25, onboarding=25, discovery=0
+- external_validation_status: reddit_subreddit_search_http_200
+- external_validation_results: 5
+- meaningful_state_change: listing-draft-002 created with proposal/scope emphasis
+- quality_gate: pass (single refinement, no volume escalation, no fabricated traction)
+
+Next test:
+- Single-channel validation post in a native-reply freelance community using draft-002 framing.
+- Success criterion: at least 1 verifiable reply or question within 24h.
+- Abort condition: if channel posting path fails, log failure and do not create new assets.
+
+Timestamp (UTC): 2026-05-12T20:17:07Z
