@@ -1,0 +1,192 @@
+{
+  "date_utc": "2026-05-12",
+  "sources": [
+    "hn_frontpage",
+    "github_trending_python"
+  ],
+  "items_collected": 33,
+  "top_terms": [
+    [
+      "software",
+      2
+    ],
+    [
+      "undune",
+      1
+    ],
+    [
+      "don",
+      1
+    ],
+    [
+      "hijack",
+      1
+    ],
+    [
+      "mouse",
+      1
+    ],
+    [
+      "pointer",
+      1
+    ],
+    [
+      "text",
+      1
+    ],
+    [
+      "blaze",
+      1
+    ],
+    [
+      "w21",
+      1
+    ],
+    [
+      "hiring",
+      1
+    ],
+    [
+      "no-ai",
+      1
+    ],
+    [
+      "summer",
+      1
+    ],
+    [
+      "internship",
+      1
+    ],
+    [
+      "houses",
+      1
+    ],
+    [
+      "living",
+      1
+    ],
+    [
+      "speculation",
+      1
+    ],
+    [
+      "crack",
+      1
+    ],
+    [
+      "down",
+      1
+    ],
+    [
+      "tiktok",
+      1
+    ],
+    [
+      "instagram",
+      1
+    ],
+    [
+      "addictive",
+      1
+    ],
+    [
+      "design",
+      1
+    ],
+    [
+      "targeting",
+      1
+    ],
+    [
+      "kids",
+      1
+    ],
+    [
+      "coursera",
+      1
+    ],
+    [
+      "udemy",
+      1
+    ],
+    [
+      "now",
+      1
+    ],
+    [
+      "company",
+      1
+    ],
+    [
+      "post",
+      1
+    ],
+    [
+      "negative",
+      1
+    ],
+    [
+      "points",
+      1
+    ],
+    [
+      "learning",
+      1
+    ],
+    [
+      "architecture",
+      1
+    ],
+    [
+      "music",
+      1
+    ],
+    [
+      "has",
+      1
+    ],
+    [
+      "scales",
+      1
+    ],
+    [
+      "raagas",
+      1
+    ],
+    [
+      "storytelling",
+      1
+    ],
+    [
+      "movies",
+      1
+    ],
+    [
+      "prestige",
+      1
+    ]
+  ],
+  "sample_titles": [
+    "UnDUNE II",
+    "Don't hijack my mouse pointer",
+    "Text Blaze (YC W21) Is Hiring for a No-AI Summer Internship",
+    "Houses are for living, not for speculation",
+    "EU to crack down on TikTok, Instagram's 'addictive design' targeting kids",
+    "Coursera and Udemy are now one company",
+    "A HN post with negative points \u2013 how?",
+    "Learning Software Architecture",
+    "Music has scales / raagas. What about storytelling in movies and prestige shows?",
+    "Toxicity on Social Media \u2013 The Noisy Room",
+    "Screenshots of Old Desktop OSes",
+    "Extremely Low Frequencies",
+    "Software Internals Book Club",
+    "Claude Platform on AWS",
+    "They Live (1988) inspired Adblocker",
+    "Postmortem: TanStack NPM supply-chain compromise",
+    "I let AI build a tool to help me figure out what was waking me up at night",
+    "Interaction Models",
+    "If AI writes your code, why use Python?",
+    "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)"
+  ]
+}
