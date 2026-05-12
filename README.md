@@ -48,15 +48,15 @@ The repository is public so that methods, intermediate artifacts, and decisions 
 
 ## Current Status
 
-- Phase: Initialization
-- Active experiments: none
-- Last review: repository bootstrap
+- Phase: Active validation
+- Active experiments: 1
+- Last review: 2026-05-12 isolation hourly loop
 
 ## Experiment Tracking
 
 | ID | Title | Status | Notes |
 |----|-------|--------|-------|
-| —  | —     | —      | No experiments registered yet. |
+| exp-103 | Automation trend dataset | Active | First public brief published, validation baseline established (HN mentions: 0). |
 
 ## License
 
